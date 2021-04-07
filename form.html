@@ -31,22 +31,52 @@ form input {
 p {
 	padding: 10px;
 }
+
 		</style>
 		</head>
 	<body>
 		<div class="container">
 		<form method="GET" id="search">
 			<p>
-				<input type="text" name="query">
+				<label for="query">ФИО</label>
+				<input type="tel" name="query" id="query" placeholder="ФИО">
 			</p>
 			
 			<p>
-				<input type="text" name="a">
+				<label for="a">Телефон</label>
+				<input type="text" name="a" placeholder="Телефон" id="a">
 
+			</p>
+
+
+<div>
+	<p>
+<label for="course">Класс</label>
+</p>
+	<p>
+							
+<select name="course" id="course">
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+
+</select>
 			</p>
 			
 			<button type="" >Submit</button>
-
+<p>
+	<label for="About">About</label>
+	<textarea rows="10" cols="40" placeholder="About" id="About">
+	</textarea>
+</p>
 		</form>
 			</div>
 			<p class="box">
