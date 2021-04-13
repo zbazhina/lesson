@@ -17,10 +17,16 @@
 margin: 0 auto;
 padding: 20px;
 }
+form input: not([type="checkbox"]) 
+{
+/*margin: 0 auto;*/
+width:auto;%}
+[name="value"]
 
-form input {
-	margin: 0 auto;
-	width: 95%;
+label {
+
+	display: inline-block;
+	width: 100%;
 }
 
 .box {
@@ -47,6 +53,62 @@ p {
 				<input type="text" name="a" placeholder="Телефон" id="a">
 
 			</p>
+
+<p>
+				<label for="e">E-mail</label>
+				<input type="text" name="e" placeholder="E-mail" id="e">
+
+			</p>
+
+<p>
+	
+<label for="date">Дата рождения</label>
+<input type="date" name="date" id="date">
+</p>
+
+<div>
+	
+	<p><LABEL>Фрукты</LABEL></p>
+
+		<LABEL>
+<input type="checkbox" name="fruit">
+	Яблоки
+</LABEL>
+
+<LABEL>
+	<input type="checkbox" name="fruit">
+Груши
+</LABEL>
+
+</div>
+
+
+<div>
+	
+	<p><LABEL>Время года</LABEL></p>
+
+		<LABEL>
+
+	<input type="radio" name="fruit">
+	<img src="images/winter.png" alt="Зима">
+</LABEL>
+
+<LABEL>
+	<input type="radio" name="fruit">
+Весна
+</LABEL>
+
+<LABEL>
+	<input type="radio" name="fruit">
+Лето
+</LABEL>
+
+<LABEL>
+	<input type="radio" name="fruit">
+Осень
+</LABEL>
+
+</div>
 
 
 <div>
