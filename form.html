@@ -17,6 +17,11 @@
 margin: 0 auto;
 padding: 20px;
 }
+
+img[scr] {
+	border: 2px solid #ff0000; 
+} 
+
 form input: not([type="checkbox"]) 
 {
 /*margin: 0 auto;*/
@@ -41,6 +46,11 @@ p {
 		</style>
 		</head>
 	<body>
+		 <ul>
+        <li>
+            <a href="../index.html">Home</a>
+        </li>
+    </ul>
 		<div class="container">
 		<form method="GET" id="search">
 			<p>
@@ -61,6 +71,7 @@ p {
 			</p>
 
 <p>
+
 	
 <label for="date">Дата рождения</label>
 <input type="date" name="date" id="date">
@@ -85,26 +96,30 @@ p {
 
 <div>
 	
-	<p><LABEL>Время года</LABEL></p>
+	<p>Время года</p>
 
 		<LABEL>
 
 	<input type="radio" name="fruit">
 	<img src="images/winter.png" alt="Зима">
+	Зима
 </LABEL>
 
 <LABEL>
 	<input type="radio" name="fruit">
+	<img src="images/spring.png" alt="Весна">
 Весна
 </LABEL>
 
 <LABEL>
 	<input type="radio" name="fruit">
+	<img src="images/summer.png" alt="Лето">
 Лето
 </LABEL>
 
 <LABEL>
 	<input type="radio" name="fruit">
+	<img src="images/autumn.png" alt="Осень">
 Осень
 </LABEL>
 
@@ -161,5 +176,11 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 			</p>
+
+<img src="../images/winter.png" alt="Зима">
+<img src="../images/spring.png" alt="Весна">
+<img src="../images/summer.png" alt="Лето">
+<img src="../images/autumn.png" alt="Осень">
+
 		</body>
 		</html>
