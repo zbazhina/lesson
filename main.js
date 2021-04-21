@@ -25,5 +25,8 @@ function selectColor() {
 
 	document.body.style.background = color;
 
-	console.log(color)
+	document.getElementById('result').innerHTML = color;
+console.log.(oper);
+
 }
+let oper_elements = document.getElementByClassName('oper')
